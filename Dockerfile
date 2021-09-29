@@ -15,6 +15,5 @@ COPY  nperf-server.conf   /etc/nperf/nperf-server.conf
 EXPOSE 8080
 EXPOSE 8443
 
-
 CMD /usr/bin/nPerfServer -x --pidfile=/var/lib/nperf-server/nPerfServer.pid -p 8080 -t 8443 --uuidfile=/var/lib/nperf-server/nPerfServer.uuid
 
