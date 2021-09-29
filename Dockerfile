@@ -10,9 +10,7 @@ RUN   echo "deb [arch=amd64] http://repo.nperf.com/apt $(lsb_release -sc) main n
 RUN   apt-get  update
 RUN   apt-get  -y  install  nperf-server
 
-COPY  nperf-server        /etc/init.d/nperf-server
 COPY  nperf-server.conf   /etc/nperf/nperf-server.conf
-
 
 EXPOSE 8080
 EXPOSE 8443
