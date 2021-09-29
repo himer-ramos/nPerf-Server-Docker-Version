@@ -1,12 +1,12 @@
 # nPerf-Server-Docker-Version
 A docker version for nPerf servers network,
-this was deploy for  :  Sirio Telecom SRL (La Paz, Bolivia) for nPerf Network 
-you can try on https://www.nperf.com/?sp=6219
+this was deploy for :  Sirio Telecomunicaciones SRL (La Paz, Bolivia) for nPerf Network 
+you can try on :  https://www.nperf.com/?sp=6219
 
 
 # spanish
 Si necesita unirse a la red de nPerf speedtest, (https://www.nperf.com/es/)
-esta imagen le sera util
+esta imagen le sera util.
 
 una vez terminada puede probar los tests en  : 
 https://server-check.nperf.com/
